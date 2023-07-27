@@ -18,6 +18,7 @@ const ExpenseItem = (props) => {
       cost: 10,
     };
 
+    
     dispatch({
       type: "ADD_EXPENSE",
       payload: expense,
